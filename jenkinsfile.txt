@@ -1,0 +1,23 @@
+node{
+    
+    stage("Code Checkout"){
+        echo "Started Code check out"
+        echo "Fetching Code from Git"
+        echo "Checkout completed"
+        
+    }
+    stage("Code Analysis "){
+        echo "Starting Code Analysis"
+        echo "Processing"
+        echo "Completed Code Analysis"
+    }
+    stage("Unit Testing"){
+        echo "Unit testing Initiated" 
+    }
+    stage("Build"){
+        echo "Build process completed" 
+    }
+    stage("Deploy"){
+        echo "Deploy code"
+    }
+}
